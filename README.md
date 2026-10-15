@@ -1,7 +1,17 @@
 
 # AI-Powered K8s Network & Log Threat Detector
 
+[![Live API](https://img.shields.io/badge/Render-Live%20API-success?style=flat-square&logo=render)](https://k8s-log-threat-detector.onrender.com)
+[![FastAPI Docs](https://img.shields.io/badge/FastAPI-Interactive%20Docs-blue?style=flat-square&logo=fastapi)](https://k8s-log-threat-detector.onrender.com/docs)
+[![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?style=flat-square&logo=docker)](https://github.com/YOUR_USERNAME/k8s-log-threat-detector)
+
 An end-to-end AI SecOps microservice pipeline that detects anomalous network traffic patterns (such as port scans and data exfiltration attempts) using unsupervised Machine Learning, containerized with Docker, and monitored via Prometheus and Grafana telemetry.
+
+> **🌐 Live Cloud Deployment**  
+> The API container is automatically deployed and running live on Render:  
+> **Live API Base:** [https://k8s-log-threat-detector.onrender.com](https://k8s-log-threat-detector.onrender.com)  
+> **Interactive Swagger Docs:** [https://k8s-log-threat-detector.onrender.com/docs](https://k8s-log-threat-detector.onrender.com/docs)  
+> **Prometheus Metrics Endpoint:** [https://k8s-log-threat-detector.onrender.com/metrics](https://k8s-log-threat-detector.onrender.com/metrics)
 
 ---
 
@@ -27,7 +37,6 @@ An end-to-end AI SecOps microservice pipeline that detects anomalous network tra
 │   │ (Metrics Collector) │       │ (Visual Interface)    │   │
 │   └─────────────────────┘       └───────────────────────┘   │
 └─────────────────────────────────────────────────────────────┘
-```
 
 ### Key Features
 * **Unsupervised Anomaly Detection:** Uses `scikit-learn`'s `IsolationForest` to flag high-volume data exfiltration and abnormal port behavior without needing historical labels.
