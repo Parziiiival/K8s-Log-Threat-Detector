@@ -86,7 +86,7 @@ Ensure you have the following installed locally:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/k8s-log-threat-detector.git
+git clone https://github.com/Parziiiival/k8s-log-threat-detector.git
 cd k8s-log-threat-detector
 ```
 
